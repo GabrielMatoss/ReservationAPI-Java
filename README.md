@@ -1,8 +1,8 @@
-# 🍽️ API de Reserva de Mesas
+# API de Reserva de Mesas
 
 Uma API REST robusta para sistema de reserva de mesas de restaurante, construída com **Java 21** e **Spring Boot 3**.
 
-## 🚀 Funcionalidades Principais
+## Funcionalidades Principais
 
 *   **Gerenciamento de Usuários**: Registro (o primeiro usuário vira SUPER ADMIN), Login, Autenticação JWT.
 *   **Gerenciamento de Mesas**: Criar mesas (apenas Admin), Buscar mesas disponíveis por capacidade.
@@ -10,7 +10,7 @@ Uma API REST robusta para sistema de reserva de mesas de restaurante, construíd
 *   **Segurança**: Controle de Acesso Baseado em Cargos (RBAC), Criptografia de senha BCrypt, JWT.
 *   **Arquitetura**: Domain-Driven Design (DDD), Arquitetura em Camadas, Código Limpo.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 *   **Linguagem**: Java 21
 *   **Framework**: Spring Boot 3.4.1
@@ -18,7 +18,7 @@ Uma API REST robusta para sistema de reserva de mesas de restaurante, construíd
 *   **Segurança**: Spring Security + JWT
 *   **Ferramentas**: Maven, Hibernate
 
-## 🏃‍♂️ Como Rodar o Projeto (Passo a Passo)
+## Como Rodar o Projeto (Passo a Passo)
 
 Siga estes passos simples para iniciar a aplicação na sua máquina:
 
@@ -52,7 +52,7 @@ mvnw.cmd spring-boot:run
 
 Aguarde até ver a mensagem de sucesso no terminal. A API estará rodando em `http://localhost:8080`.
 
-## 🧪 Como Testar
+## Como Testar
 
 Você pode usar ferramentas visuais como **Postman** ou **Insomnia** para testar os endpoints.
 
@@ -70,8 +70,6 @@ Você pode usar ferramentas visuais como **Postman** ou **Insomnia** para testar
 *   `POST /api/reservations` - Fazer reserva
 *   `GET /api/reservations/my-reservations` - Ver minhas reservas
 
-### Dica Importante
+### Observações:
 O **primeiro usuário** que você registrar será automaticamente **ADMIN**. Todos os outros serão usuários normais.
 
-## 📝 Licença
-Este projeto está sob a licença MIT.
